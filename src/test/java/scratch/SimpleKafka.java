@@ -202,7 +202,7 @@ public class SimpleKafka {
   @Test
   void t() throws InterruptedException, ExecutionException {
     // assume m1 is v1:0,v2:0.0
-    String expectedBody = "v1:5,v2:3.8";
+    String expectedBody = "v1:1,v2:0.0";
 
     send(SOURCE_TOPIC, "m1", "v1:5");
 
